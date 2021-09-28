@@ -92,6 +92,7 @@ ul:hover {
     scrollbar-width: none;
   }
   
+  
   .carousel__container {
     transition: 450ms -webkit-transform;
     transition: 450ms transform;
@@ -181,13 +182,13 @@ ul:hover {
     height: 5px;
   }
   .carousel ::-webkit-scrollbar-track{
-    background: rgba(190, 189, 189, 0.219);
+    background: none;
   }
   .carousel ::-webkit-scrollbar-thumb{
-    background: rgba(255, 255, 255, 0.281);
+    background: none;
   }
   .carousel::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.699);
+    background: none;
   }
 
 
