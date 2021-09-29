@@ -1,4 +1,5 @@
 body {
+    background-color: #AB88FF;
     margin: 0px;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -163,6 +164,50 @@ body {
     margin: 10px 0px;
 }
 
+/* ERROR 404 */
+
+
+
+.error404{
+    background: linear-gradient(#21c08b,#AB88FF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-right: 2rem;
+    min-height: calc(100vh - 180px);
+    overflow: visible;
+}
+.error404__container {
+    color: white;
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error404__container h1 {
+    position: relative;
+    max-width: 350px;
+    align-self: center;
+    line-height: 2.5rem;
+    font-size: 150px;
+  }
+  .error404__container h1 span {
+    transform: rotate(180deg);
+    display: inline-block;
+    transform-origin: center bottom;
+    animation: rotate4 2s linear;
+    animation-iteration-count: infinite;
+    font-size: 150px;
+  }
+
+  .error404__container p {
+      margin-top: -70px;
+  }
+
+
 /* FOOTER */
 
 .footer{
@@ -209,4 +254,16 @@ body {
         
     }
     
+    
+}
+@keyframes rotate4 {
+  0% {
+    transform: rotate(160deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(160deg);
+  }
 }
